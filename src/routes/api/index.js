@@ -1,3 +1,5 @@
+console.log('item routes')
+
 module.exports = function routes(app) {
     app.get("/", (req, res) => {
       return res.sendFile(path.join(__dirname, "public", "./views/index.html"));

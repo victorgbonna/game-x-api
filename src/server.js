@@ -8,6 +8,7 @@ const path = require("path");
 
 const app = express();
 // const server = require('http').createServer(app);
+console.log('item server')
 
 
 app.use(cors());
