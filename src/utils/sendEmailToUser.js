@@ -32,7 +32,7 @@ module.exports = async function sendEmailToUser(
             }
         })        
         let details = {
-            from: `Climax Properties Ng ${MAIL_EMAIL}`,
+            from: `E-GameX ${MAIL_EMAIL}`,
             // to: mailTo,
             subject,
             html:htmlToSend,
